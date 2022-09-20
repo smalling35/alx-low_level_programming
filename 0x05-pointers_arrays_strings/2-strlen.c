@@ -1,36 +1,17 @@
 #include "main.h"
 
-
-
 /**
-
- * _strlen - returns the length of a string
-
- * @s: pointer of parameter
-
- * Return: returns n as integer;
-
- */
-
-
+*_strlen - returns the length of a string
+* @s: string
+*Return: returns length as integer;
+*/
 
 int _strlen(char *s)
-
 {
+	int len = 0;
 
-	int n = 0;
+	while (*(s + len) != '\0')
+		len++;
 
-
-
-	while (s[n] != '\0')
-
-	{
-
-		n++;
-
-	}
-
-
-
-	return (n);
-
+	return (len);
+}
