@@ -1,18 +1,18 @@
 #include "main.h"
 
+
+
 /**
 
- * _strlen - function
-
- *
+ * _strlen - returns the length of a string
 
  * @s: pointer of parameter
 
- *
-
- * Return: return n's value
+ * Return: returns n as integer;
 
  */
+
+
 
 int _strlen(char *s)
 
@@ -34,4 +34,3 @@ int _strlen(char *s)
 
 	return (n);
 
-}
