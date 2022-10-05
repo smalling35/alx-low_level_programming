@@ -1,5 +1,5 @@
-#include MAIN.H
-#define MAIN.H
+#include MAIN_H
+#define MAIN_H
 
 #include <stdlib.h>
 
