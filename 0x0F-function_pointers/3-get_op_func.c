@@ -5,7 +5,7 @@
  * Return: correct function result or NULL if operator is wrong
  */
 
-int (*get_op_func(char *s))(int , int)
+int (*get_op_func(char *s))(int, int)
 {
 	op_tops[] = {
 		{"+", op_add},
